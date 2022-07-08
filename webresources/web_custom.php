@@ -1,7 +1,9 @@
 <?php
+
 $enableblog=0;
 $enableproductspage=0;
 $enableservicespage=0;
+$namewr="Rebollo<br>Engineering";
 
 $webdetails = new stdClass();
 $webdetails->name="Rebollo Engineering";

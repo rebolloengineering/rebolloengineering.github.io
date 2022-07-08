@@ -1,6 +1,6 @@
 <?php 
-require_once "webresources/web_htmlparts.php"; 
-require_once "webresources/web_custom.php";
+include "webresources/web_htmlparts.php"; 
+include "webresources/web_custom.php";
 
 printheader();
 printnavbar();
@@ -263,3 +263,4 @@ changeslide();
     <?php
     printfoother();
     printwebend();
+    ?>

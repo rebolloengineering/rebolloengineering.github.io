@@ -1,15 +1,21 @@
 <?php
-require_once "web_custom.php";
+include "web_custom.php";
+include "web_custom_.php";
+
+global $webdetails; 
+
+$myname=$webdetails->name;
+
 
 function printheader()
 {
-    global $webdetails;
+    $config = new reConfig();
     echo '
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>'.$webdetails->name.'</title>
+    <title>'.$config->name.'</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/refav.png">
@@ -31,12 +37,17 @@ function printheader()
 
 function printnavbar()
 {
+    $config = new reConfig();
+
     global $webdetails;
     global $enableblog;
     global $enableproductspage;
     global $enableservicespage;
-    $enablebutton=0;
+    global $namewr;
 
+    $enablebutton=0;
+    $titlee=":".$webdetails->namewrapped;
+    
     echo '
 
     <!--
@@ -46,7 +57,7 @@ function printnavbar()
     -->
 
     <nav class="navbar navbar-expand-sm navbar-dark bg-faded fixed-top">
-      <a class="navbar-brand" href="/">'.$webdetails->namewrapped.'</a>
+      <a class="navbar-brand" href="/">'.$config->namewrapped.'</a>
       ';
 
       if($enablebutton)
