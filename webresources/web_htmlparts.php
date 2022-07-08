@@ -38,15 +38,7 @@ function printheader()
 function printnavbar()
 {
     $config = new reConfig();
-
-    global $webdetails;
-    global $enableblog;
-    global $enableproductspage;
-    global $enableservicespage;
-    global $namewr;
-
     $enablebutton=0;
-    $titlee=":".$webdetails->namewrapped;
     
     echo '
 
@@ -69,17 +61,17 @@ function printnavbar()
         <ul class="navbar-nav mr-auto"></ul>
         <ul class="navbar-nav">
             <!-- <li class="nav-item active"><a class="nav-link" href="0-landing.html">Inicio</a></li> -->';
-            if($enableservicespage)
+            if($config->enableservicespage)
             {
             echo '<li class="nav-item"><a class="nav-link" href="6-services.html">Servicios</a></li>';
             }
             echo '<!-- <li class="nav-item"><a class="nav-link" href="7-portfolio.html">Portfolio</a></li> -->';
 
-            if($enableproductspage)
+            if($config->enableproductspage)
             {
             echo '<li class="nav-item"><a class="nav-link" href="1-store.html">Productos</a></li>';
             }
-            if($enableblog)
+            if($config->enableblog)
             {
               echo '<li class="nav-item "><a class="nav-link" href="2-blog.html">Blog</a></li>';
             }
@@ -97,7 +89,8 @@ function printnavbar()
 
 function printfoother()
 {
-    global $webdetails;
+    $config = new reConfig();
+
     echo '
     <div class="footer-section endbar copyright" style="margin: 0rem;background-color: #004677; color: white;"> <!-- height: 4rem; -->
     <span class="copyright">
@@ -133,7 +126,7 @@ function printfoother()
     </div>
     <div class="footer-section" style="margin: 0rem;background-color: black;color: white; height: 4rem;">
 
-    <span class="copyright"><!-- Copyright &#169;--> '.$webdetails->year.' | '.$webdetails->name.' | <a href="mailto:dani@danirebollo.es?subject=contacto"><img src="assets/mail.png" style="height: 1em;"/></a> | Madrid, España</span>
+    <span class="copyright"><!-- Copyright &#169;--> '.$config->year.' | '.$config->name.' | <a href="mailto:dani@danirebollo.es?subject=contacto"><img src="assets/mail.png" style="height: 1em;"/></a> | Madrid, España</span>
 </div>
     ';
 }
@@ -154,13 +147,15 @@ function printslider()
 {
     global $slides;
 
-foreach($slides->elements as $key => $slideelement)
+    $config = new reConfig();
+    
+foreach($config->slidearray as $key => $slideelement)
 {
     echo '
     <div class="row" id="myslide'.($key+1).'"  style="padding: 10px 10px 10px;">
 
                                 <div id="slideimg" class="col-sm-6 text-left" style="
-                                background-image: url('.$slideelement->imgsource.'); 
+                                background-image: url('.$slideelement['imgsource'].'); 
                                 background-size: 100%;
                                 background-repeat: no-repeat;
                                 background-position: center;
@@ -173,7 +168,7 @@ foreach($slides->elements as $key => $slideelement)
                                     <div > </div>
                                 </div>   
                                 <div id="slidetext" class="col-6" style="color: white; padding: 0px 100px 0px;">
-                                        '.$slideelement->text.'
+                                        '.$slideelement['text'].'
                                 </div>
 
                             </div>

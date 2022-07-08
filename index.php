@@ -1,6 +1,9 @@
 <?php 
 include "webresources/web_htmlparts.php"; 
 include "webresources/web_custom.php";
+include_once "webresources/web_custom_.php";
+
+$config = new reConfig();
 
 printheader();
 printnavbar();
@@ -192,75 +195,8 @@ printnavbar();
         ?>
     </div>
 
-    <script>
-        /*
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides0");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-*/
-//elemento = document.getElementById('slideimg');
-//elemento2 = document.getElementById('slidetext');
-//
-////document.getElementById("slideimg").innerHTML = "myimg";
-//document.getElementById("slidetext").innerHTML = "slidetext";
-//var mystyle="background-image: url('assets/pcba-3.png'); background-size: 100%; background-repeat: no-repeat; background-position: center; display:table; height:22rem; width:100%;";
-//document.getElementById('slideimg').setAttribute('css', mystyle);   
-
-var display_status="none";
-
-var s1=document.getElementById('myslide1');
-var s2=document.getElementById('myslide2');
-var s3=document.getElementById('myslide3');
-var s4=document.getElementById('myslide4');
-var s5=document.getElementById('myslide5');
-var s6=document.getElementById('myslide6');
-var s7=document.getElementById('myslide7');
-var slides=[s1,s2,s3,s4,s5,s6,s7];
-var counter=0;
-
-function changeslide()
-{
-    console.log("counter: "+counter);
-    if (counter>=slides.length)
-        counter=0;
-
-    for (var i = 0; i < slides.length; i+=1) 
-    {
-        if(counter==i)
-        {
-            slides[i].style.display = '';
-        }
-        else
-        {
-            slides[i].style.display = 'none';
-        }
-    }
-
-    counter++;        
-    setTimeout(function(){
-    changeslide();
-    }, 3000);
-}
-
-changeslide();
-
-</script>
-
     <?php
+    $config->printsliderscript();
     printfoother();
     printwebend();
     ?>

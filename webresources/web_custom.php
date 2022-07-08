@@ -1,15 +1,5 @@
 <?php
 
-$enableblog=0;
-$enableproductspage=0;
-$enableservicespage=0;
-$namewr="Rebollo<br>Engineering";
-
-$webdetails = new stdClass();
-$webdetails->name="Rebollo Engineering";
-$webdetails->namewrapped="Rebollo<br>Engineering";
-$webdetails->year="2017-2022";
-
 /* -------------------------------------------- WEB ARTICLES --------------------------------------------*/
 $webarticles = new stdClass();
 $webarticles->articles=array();
@@ -138,44 +128,4 @@ $webproducts->products[5]=$product5;
 
 /* END WEB PRODUCTS */
 
-/* --------------------------------------------START SLIDE -------------------------------------------- */
-$slides = new stdClass();
-$slides->elements=array();
-
-$slideelement = new stdClass();
-$slideelement->imgsource="assets/mch-1.png?";
-$slideelement->text='<h1>Diseño e integración de mecánica y electrónica</h1>';
-$slides->elements[0]=$slideelement;
-
-$slideelement1 = new stdClass();
-$slideelement1->imgsource="assets/prot-2.png";
-$slideelement1->text='<h1>Prototipado rápido</h1>';
-$slides->elements[1]=$slideelement1;
-
-$slideelement2 = new stdClass();
-$slideelement2->imgsource="assets/flex-1.png";
-$slideelement2->text='<h1>Fabricación de cables FLEX</h1>';
-$slides->elements[2]=$slideelement2;
-
-$slideelement3 = new stdClass();
-$slideelement3->imgsource="assets/analisys-1.png";
-$slideelement3->text='<h1>Testeo, laboratorio, ingeniería inversa</h1>';
-$slides->elements[3]=$slideelement3;
-
-$slideelement4 = new stdClass();
-$slideelement4->imgsource="assets/pcba-4.png";
-$slideelement4->text='<h1>Integración, diseño multiplaca</h1>';
-$slides->elements[4]=$slideelement4;
-
-$slideelement5 = new stdClass();
-$slideelement5->imgsource="assets/log-2.png";
-$slideelement5->text='<h1>Gestión logística. Fabricación y envío</h1>Envíos internacionales. Electrónica, mecánica, postprocesado';
-$slides->elements[5]=$slideelement5;
-
-$slideelement6 = new stdClass();
-$slideelement6->imgsource="assets/firmware-1.png";
-$slideelement6->text='<h1>Programación de firmware</h1><br>MCU: ARM, PIC/PIC32, MSP430';
-$slides->elements[6]=$slideelement6;
-
-/* END SLIDE */
 ?>
