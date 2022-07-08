@@ -23,7 +23,7 @@ $r1=getRenderedHTML("index.php");
 $dir = __DIR__ . "/docs"; // Full Path
 is_dir($dir) || @mkdir($dir) || die("Can't Create folder");
 
-file_put_contents($dir."/index2.html", $r1);
+file_put_contents($dir."/index.html", $r1);
 
 echo "DIR: ".$dir;
 

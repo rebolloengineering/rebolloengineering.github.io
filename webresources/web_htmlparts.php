@@ -10,8 +10,7 @@ $myname=$webdetails->name;
 function printheader()
 {
     $config = new reConfig();
-    echo '
-<!DOCTYPE html>
+    echo '<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">

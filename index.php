@@ -9,7 +9,7 @@ printheader();
 printnavbar();
 ?>    
 
-    <div class="header-section" > <!-- style="mask-image: linear-gradient(to left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    <div class="header-section"> <!-- style="mask-image: linear-gradient(to left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
   -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0) 0%,rgb(255 255 255) 70%);" -->
         <div class="header-section-inner">
             <div class="container">
@@ -22,8 +22,8 @@ printnavbar();
                         </h1> -->
                     </div>
                 </div>
-                <div >
-                    <div >
+                <div>
+                    <div>
                         <div class="container" style="height: 100%">
                         <?php
                         printslider();
@@ -122,7 +122,7 @@ printnavbar();
                                     else
                                         $link='style="pointer-events: none"';
                                 ?>
-                                <a href=<?php  echo '"'.$myproduct->link.'"'." ".$link; ?> ><?php  echo $myproduct->title; ?></a>
+                                <a href=<?php  echo '"'.$myproduct->link.'"'." ".$link; ?>><?php  echo $myproduct->title; ?></a>
                             </h5>
                             <p class="card-text"><?php  echo $myproduct->subtitle; ?></p>
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
