@@ -2,10 +2,6 @@
 include "web_custom.php";
 include "web_custom_.php";
 
-global $webdetails; 
-
-$myname=$webdetails->name;
-
 
 function printheader()
 {

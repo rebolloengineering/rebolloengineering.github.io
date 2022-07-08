@@ -34,6 +34,8 @@ Clientes egpu: ... sandia labs, MIT, HSR, mmm, university berlin, Tesla, <br>
 [ ] web en inglés al detectar idioma... <br> 
 
 # build
--remove old assets folder
--Copy new assets folder to /docs/assets
--compile php and save to /docs
+```
+danirebollo@dockerpc2:~/enterpriseapps/php-web/www/rebolloengineering$ sudo sh build.sh
+
+http://dockerpc2:88/rebolloengineering/gethtml.php
+```
