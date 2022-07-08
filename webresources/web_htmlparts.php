@@ -13,8 +13,8 @@ function printheader()
     <title>'.$config->name.'</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
-    <link rel="shortcut icon" type="image/x-icon" href="assets/refav.png">
-    <link rel="stylesheet" media="all" href="assets/style1.css?10" data-turbolinks-track="reload">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/pics/resources/refav.png">
+    <link rel="stylesheet" media="all" href="assets/style1.css?11" data-turbolinks-track="reload">
     <link rel="stylesheet" media="screen" href="assets/css.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans JP">
@@ -94,25 +94,25 @@ function printfoother()
     <div class="CSSgal0">
 
         <div class="gallery">
-          <img src="assets/logo_medux.png" class="gallery__img" alt="Image 1">
-          <img src="assets/logo-ringo.png" class="gallery__img" alt="Image 2">
-          <img src="assets/electrodrives.png" class="gallery__img" alt="Image 3">
-          <img src="assets/zooo.png" class="gallery__img" alt="Image 4">
-          <img src="assets/ioon.png" class="gallery__img" alt="Image 4">
+          <img src="assets/pics/clients/logo_medux.png" class="gallery__img" alt="Image 1">
+          <img src="assets/pics/clients/logo-ringo.png" class="gallery__img" alt="Image 2">
+          <img src="assets/pics/clients/electrodrives.png" class="gallery__img" alt="Image 3">
+          <img src="assets/pics/clients/zooo.png" class="gallery__img" alt="Image 4">
+          <img src="assets/pics/clients/ioon.png" class="gallery__img" alt="Image 4">
         </div>
         <div class="gallery">
-        <img src="assets/watchmandoor.png" class="gallery__img" alt="Image 1">
-        <img src="assets/bestseller.png" class="gallery__img" alt="Image 2">
-        <img src="assets/lasiesta.png" class="gallery__img" alt="Image 3">
-        <img src="assets/looper.png" class="gallery__img" alt="Image 4">
-        <img src="assets/lastbasic.png" class="gallery__img" alt="Image 4">
+        <img src="assets/pics/clients/watchmandoor.png" class="gallery__img" alt="Image 1">
+        <img src="assets/pics/clients/bestseller.png" class="gallery__img" alt="Image 2">
+        <img src="assets/pics/clients/lasiesta.png" class="gallery__img" alt="Image 3">
+        <img src="assets/pics/clients/looper.png" class="gallery__img" alt="Image 4">
+        <img src="assets/pics/clients/lastbasic.png" class="gallery__img" alt="Image 4">
         </div>
         <div class="gallery">
-        <img src="assets/raixer.png" class="gallery__img" alt="Image 4">
-        <img src="assets/mit.png" class="gallery__img" alt="Image 4">
-        <img src="assets/sandialabs.png" class="gallery__img" alt="Image 4">
-        <img src="assets/hsr.png" class="gallery__img" alt="Image 4">
-        <img src="assets/bhb-1.png" class="gallery__img" alt="Image 4">
+        <img src="assets/pics/clients/raixer.png" class="gallery__img" alt="Image 4">
+        <img src="assets/pics/clients/mit.png" class="gallery__img" alt="Image 4">
+        <img src="assets/pics/clients/sandialabs.png" class="gallery__img" alt="Image 4">
+        <img src="assets/pics/clients/hsr.png" class="gallery__img" alt="Image 4">
+        <img src="assets/pics/clients/bhb-1.png" class="gallery__img" alt="Image 4">
       </div>
   
 </div>
@@ -121,7 +121,7 @@ function printfoother()
     </div>
     <div class="footer-section" style="margin: 0rem;background-color: black;color: white; height: 4rem;">
 
-    <span class="copyright"><!-- Copyright &#169;--> '.$config->year.' | '.$config->name.' | <a href="mailto:dani@danirebollo.es?subject=contacto"><img src="assets/mail.png" style="height: 1em;"/></a> | Madrid, España</span>
+    <span class="copyright"><!-- Copyright &#169;--> '.$config->year.' | '.$config->name.' | <a href="mailto:dani@danirebollo.es?subject=contacto"><img src="assets/pics/resources/mail.png" style="height: 1em;"/></a> | Madrid, España</span>
 </div>
     ';
 }

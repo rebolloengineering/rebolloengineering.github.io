@@ -12,31 +12,31 @@ class reConfig
 
     public $slidearray=array(
         array(
-            'imgsource'=>'assets/mch-1.png?',
+            'imgsource'=>'assets/pics/service/mch-1.png?',
             'text'=>'<h1>Diseño e integración de mecánica y electrónica</h1>'
         ),
         array(
-            'imgsource'=>'assets/prot-2.png',
+            'imgsource'=>'assets/pics/service/prot-2.png',
             'text'=>'<h1>Prototipado rápido</h1>'
         ),
         array(
-            'imgsource'=>'assets/flex-1.png?',
+            'imgsource'=>'assets/pics/service/flex-1.png?',
             'text'=>'<h1>Fabricación de cables FLEX</h1>'
         ),
         array(
-            'imgsource'=>'assets/analisys-1.png',
+            'imgsource'=>'assets/pics/service/analisys-1.png',
             'text'=>'<h1>Testeo, laboratorio, ingeniería inversa</h1>'
         ),
         array(
-            'imgsource'=>'assets/pcba-4.png',
+            'imgsource'=>'assets/pics/service/pcba-4.png',
             'text'=>'<h1>Integración, diseño multiplaca</h1>'
         ),
         array(
-            'imgsource'=>'assets/log-2.png',
+            'imgsource'=>'assets/pics/service/log-2.png',
             'text'=>'<h1>Gestión logística. Fabricación y envío</h1>Envíos internacionales. Electrónica, mecánica, postprocesado'
         ),
         array(
-            'imgsource'=>'assets/firmware-1.png',
+            'imgsource'=>'assets/pics/service/firmware-1.png',
             'text'=>'<h1>Programación de firmware</h1><br>MCU: ARM, PIC/PIC32, MSP430'
         )
     );

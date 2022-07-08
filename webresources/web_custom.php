@@ -67,7 +67,7 @@ $product->fullentry="";
 $product->category=$webacategories->categories[0]->name;
 $product->categorylink=$webacategories->categories[0]->link;
 $product->link="#";
-$product->imgsrc="assets/egpu-1.png";
+$product->imgsrc="assets/pics/service/egpu-1.png";
 $webproducts->products[0]=$product;
 
 $product1 = new stdClass();
@@ -78,7 +78,7 @@ $product1->fullentry="";
 $product1->category=$webacategories->categories[0]->name;
 $product1->categorylink=$webacategories->categories[0]->link;
 $product1->link="#";
-$product1->imgsrc="assets/parking-2.png";
+$product1->imgsrc="assets/pics/service/parking-2.png";
 $webproducts->products[1]=$product1;
 
 $product2 = new stdClass();
@@ -89,7 +89,7 @@ $product2->fullentry="";
 $product2->category=$webacategories->categories[0]->name;
 $product2->categorylink=$webacategories->categories[0]->link;
 $product2->link="#";
-$product2->imgsrc="assets/bikelock-1.png";
+$product2->imgsrc="assets/pics/service/bikelock-1.png";
 $webproducts->products[2]=$product2;
 
 $product3 = new stdClass();
@@ -100,7 +100,7 @@ $product3->fullentry="";
 $product3->category=$webacategories->categories[0]->name;
 $product3->categorylink=$webacategories->categories[0]->link;
 $product3->link="https://danirebollo.es/Home_files/openlock/index.html";
-$product3->imgsrc="assets/openlock01.png";
+$product3->imgsrc="assets/pics/service/openlock01.png";
 $webproducts->products[3]=$product3;
 
 
@@ -112,7 +112,7 @@ $product4->fullentry="";
 $product4->category=$webacategories->categories[0]->name;
 $product4->categorylink=$webacategories->categories[0]->link;
 $product4->link="#";
-$product4->imgsrc="projects/tas-1.png";
+$product4->imgsrc="assets/pics/service/tas-1.png";
 $webproducts->products[4]=$product4;
 
 $product5 = new stdClass();
@@ -123,7 +123,7 @@ $product5->fullentry="";
 $product5->category=$webacategories->categories[0]->name;
 $product5->categorylink=$webacategories->categories[0]->link;
 $product5->link="#";
-$product5->imgsrc="assets/nvr.png";
+$product5->imgsrc="assets/pics/service/nvr.png";
 $webproducts->products[5]=$product5;
 
 /* END WEB PRODUCTS */

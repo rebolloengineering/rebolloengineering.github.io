@@ -43,7 +43,7 @@ printnavbar();
             <div class="row service-items">
                 <div class="col-sm-6 col-md-4 service-item">
                     <div class="landing-img">
-                    <img src="assets/sch-1.png" style=" width: 100%;"/>
+                    <img src="assets/pics/service/sch-1.png" style=" width: 100%;"/>
                     </div>
                     <h4>Sólo diseño</h4>
                     <p>Sólo se realiza el diseño de hardware (selección de componentes, diseño de esquemas, PCB, gerber, step, pick and place...). La producción 
@@ -53,14 +53,14 @@ printnavbar();
 
                 <div class="col-sm-6 col-md-4 service-item">
                     <div class="landing-img">
-                    <img src="assets/pcba-2.png" style=" width: 100%;"/>
+                    <img src="assets/pics/service/pcba-2.png" style=" width: 100%;"/>
                     </div>
                     <h4>MVP</h4>
                     <p>Diseño y fabricación de prototipos con los que validar tu idea. Desde 24h.</p>
                 </div>
                 <div class="col-sm-6 col-md-4 service-item">
                     <div class="landing-img">
-                    <img src="assets/haas-1.png" style=" width: 100%;"/>
+                    <img src="assets/pics/service/haas-1.png" style=" width: 100%;"/>
                     </div>
                     <h4>HaaS</h4>
                     <p>Hardware como servicio. <br>Tanto si hemos diseñado todo desde el principio como si partimos de un diseño previo dado, podemos encargarnos
