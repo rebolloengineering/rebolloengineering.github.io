@@ -196,7 +196,7 @@ http://stackoverflow.com/a/34696029/383904
 }
 
 #show_bg_2 {
-    background-image: linear-gradient(to right, rgb(246 245 252 / 0%), rgb(0 0 0)), url(home-header.jpg);
+    background-image: linear-gradient(to right, rgb(246 245 252 / 0%), rgb(0 0 0)), url(pics/resources/home-header.jpg);
 
     width: 80%;
     height: 400px;
@@ -12357,7 +12357,7 @@ body {
 .header_3 {
     background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-    url('home-header.jpg');
+    url('pics/resources/home-header.jpg');
     width: 80%;
     height: 400px;
     background-size: cover;
@@ -12370,9 +12370,9 @@ body {
     width: 100%;
     /* height: 100%; */
     /* min-height: 100%; */
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))), url("home-header.jpg");
-     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("home-header.jpg"); 
-    /* background-image: linear-gradient(to right, rgb(246 245 252 / 0%), rgb(0 0 0)), url(home-header.jpg); */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))), url("pics/resources/home-header.jpg");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("pics/resources/home-header.jpg"); 
+    /* background-image: linear-gradient(to right, rgb(246 245 252 / 0%), rgb(0 0 0)), url(pics/resources/home-header.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
