@@ -97,21 +97,21 @@ function printfoother()
 
     <div class="CSSgal0">
 
-        <div class="gallery" >
+        <div class="gallery">
           <img src="assets/logo_medux.png" class="gallery__img" alt="Image 1">
           <img src="assets/logo-ringo.png" class="gallery__img" alt="Image 2">
           <img src="assets/electrodrives.png" class="gallery__img" alt="Image 3">
           <img src="assets/zooo.png" class="gallery__img" alt="Image 4">
           <img src="assets/ioon.png" class="gallery__img" alt="Image 4">
         </div>
-        <div class="gallery" >
+        <div class="gallery">
         <img src="assets/watchmandoor.png" class="gallery__img" alt="Image 1">
         <img src="assets/bestseller.png" class="gallery__img" alt="Image 2">
         <img src="assets/lasiesta.png" class="gallery__img" alt="Image 3">
         <img src="assets/looper.png" class="gallery__img" alt="Image 4">
         <img src="assets/lastbasic.png" class="gallery__img" alt="Image 4">
         </div>
-        <div class="gallery" >
+        <div class="gallery">
         <img src="assets/raixer.png" class="gallery__img" alt="Image 4">
         <img src="assets/mit.png" class="gallery__img" alt="Image 4">
         <img src="assets/sandialabs.png" class="gallery__img" alt="Image 4">
@@ -164,7 +164,7 @@ foreach($config->slidearray as $key => $slideelement)
                                 width:auto;
                                 max-width:500px;
                                 ">
-                                    <div > </div>
+                                    <div> </div>
                                 </div>   
                                 <div id="slidetext" class="col-6" style="color: white; padding: 0px 100px 0px;">
                                         '.$slideelement['text'].'
