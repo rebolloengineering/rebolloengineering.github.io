@@ -25,6 +25,6 @@ is_dir($dir) || @mkdir($dir) || die("Can't Create folder");
 
 file_put_contents($dir."/index.html", $r1);
 
-echo "DIR: ".$dir;
+//echo "DIR: ".$dir;
 
 echo $r1;
