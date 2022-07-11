@@ -21,7 +21,7 @@ function printhtmlheader()
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="assets/grid.css?12">
+<link rel="stylesheet" href="assets/grid.css?20">
 </head>
 
 <body class="grid-container">
@@ -32,14 +32,15 @@ function printnavbar()
 {
     echo  <<<HTML
 <header class="header">
-<div class="logo">
-    <a class="logo" style="text-decoration: none;" href="/">Rebollo<br>Engineering</a>
-</div>
-<div style="
-    width: 100%;
-">
-<div class="contactbutton" >
-    <a class="btn btn-secondary" role="button" style="color: yellow;" href="mailto:dani@danirebollo.es?subject=contacto">Contacto</a>
+<div class="subheader">
+    <div class="logo">
+        <a class="logo" style="text-decoration: none;" href="/">Rebollo<br>Engineering</a>
+    </div>
+    <div style="width: 100%;">
+    </div>
+    <div class="contactbutton" >
+        <a class="btn btn-secondary" role="button" style="color: yellow;" href="mailto:dani@danirebollo.es?subject=contacto">Contacto</a>
+    </div>
 </div>
 </header>
 HTML;
@@ -189,6 +190,8 @@ function printclients()
 
     echo <<<HTML
     <article class="clients">
+    <div class="subheader" style="display: inline-block;">
+    
         <h2>CLIENTES</h2>
         <div class="grid-gallery">
     HTML;
@@ -203,6 +206,7 @@ function printclients()
 
     echo <<<HTML
         </div>
+    </div>
     </article>
     HTML;
 }

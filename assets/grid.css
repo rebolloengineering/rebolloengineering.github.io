@@ -82,6 +82,7 @@ body {
   margin: 0rem;
   background-color: #004677;
   color: white ;
+  width: 100%;
 }
 .clients h2
 {
@@ -241,6 +242,13 @@ bottom: -30px;
 }
 
 
+.subheader {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* default: supersmall. 
 min-width: 600px -> level 1, bigger
 min-width: 900px -> level 2, bigger
@@ -312,22 +320,39 @@ min-width: 900px -> level 2, bigger
       200px    auto   200px;
   }
   .services {
-    padding-left: 20%;
-    padding-right: 20%;
+    max-width: 1200px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .latestprojects {
-    padding-left: 20%;
-    padding-right: 20%;
+    max-width: 1200px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .clients {
-    padding-left: 20%;
-    padding-right: 20%;
+    /* max-width: 1200px; */
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .header {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
-
+  .subheader {
+    /* display: flex; */
+    /* display:inline-block; */
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carousel {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 600px) {
@@ -343,5 +368,24 @@ width: 100%;
 right: 0%;
 left: 0%;
 }
+.services {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.latestprojects {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.clients {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.header {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 }
 
+a {
+  color: #004677;
+}
