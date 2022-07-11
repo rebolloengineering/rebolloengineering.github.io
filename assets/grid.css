@@ -200,8 +200,8 @@ h4
     width: 100%;
     /* height: 100%; */
     /* min-height: 100%; */
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))), url(assets/pics/resources/home-header.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(assets/pics/resources/home-header.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))), url(pics/resources/home-header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(pics/resources/home-header.jpg);
     /* background-image: linear-gradient(to right, rgb(246 245 252 / 0%), rgb(0 0 0)), url(pics/resources/home-header.jpg); */
     background-position: center;
     background-repeat: no-repeat;
